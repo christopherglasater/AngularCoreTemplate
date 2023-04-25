@@ -1,0 +1,7 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/AngularCoreTemplate/v17/.wsuo
+/AngularCoreTemplate/.vs/AngularCoreTemplate/FileContentIndex
+/AngularCoreTemplate/obj
