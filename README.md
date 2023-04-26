@@ -7,4 +7,6 @@ Use this as a .NET Core 6.0 Angular/Typescript starting template for projects
 
 3. This project has base code to allow .NET Core API to work with Angular single page application.
 
+4. This project contains template Hello World dependancy injected services that interact with a template controller
+
 
