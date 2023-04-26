@@ -13,5 +13,12 @@ namespace AngularCoreTemplate.Services
         {
             throw new NotImplementedException();
         }
+
+        public List<SomethingModel> GetSomething()
+        {
+            List<SomethingModel> models = new List<SomethingModel>();
+            models.Add(new SomethingModel { Id = 1, Name = "Test" });
+            return models;
+        }
     }
 }

@@ -13,6 +13,15 @@ namespace AngularCoreTemplate.Controllers
         {
             _helloWorldService = helloWorldService; 
         }
+
+        [HttpGet]
+        [Route("GetSomething")]
+        public IEnumerable<SomethingModel> GetSomething()
+        {
+            return _helloWorldService.GetSomething().ToArray();
+        }
+
+
         [HttpGet]
         [Route("DoSomething/{input}")]
         public SomethingModel DoSomething(string input)
